@@ -1,0 +1,116 @@
+body
+{
+background: #F5E9CF; 
+font-family: Arial;
+font-size: 11px;
+width: 1200px;
+margin: auto;
+}
+#imagenlogo
+{
+background: url(../imagenes/logos.png) no-repeat
+left;
+background-size: 30%;
+padding: 20em 0em 0em 0em;
+text-transform: uppercase;
+}
+#imagenlogo h1 a
+{
+margin-left: 850px;
+padding: 0em 0em 0em 0em;
+text-decoration: none;
+font-size: 2em;
+font-weight: bold; 
+color: #4D455D;
+}
+#subtitulo
+{
+padding: 0em;
+margin-left: 950px;
+font-size: 2em;
+color: #E96479;
+}
+.navegacion{
+width: 1230px;
+margin: 3px auto;
+background: #7DB9B6;
+}
+.navegacion ul{
+list-style: none;
+}
+.menu > li{
+position: relative;
+display: inline-block;
+}
+.menu > li > a{
+display: block;
+padding: 15px 20px;
+color: #2d5c7c;
+font-family: tahoma;
+text-decoration: none;
+}
+.menu li a:hover{
+color: #f6f6f7;
+transition: all .3s;
+}
+.submenu{
+position: absolute;
+background: #333333;
+width: 120%;
+visibility: hidden;
+opacity: 0;
+transition: opacity 1.5s;
+}
+.submenu li a{
+display: block;
+padding: 15px;
+color: #fff;
+font-family: 'Open sans';
+text-decoration: none;
+}
+.menu li:hover .submenu{
+visibility: visible;
+opacity: 1;
+}
+#seccion
+{
+width: 1150px;
+padding: 20px 40px;
+background: #FFF;
+height: 520px;
+}
+#imagen
+{
+margin-top: 0em;
+margin-left: 320px;
+width: 330px;
+height: 250px;
+text-align: center;
+}
+#subtitulo2
+{
+font-family: tahoma, Geneva, sans-serif;
+font-size: 30px;
+color: #4D455D;
+}
+#footer{
+text-align: center;
+border: 12px;
+background-color: #E96479;
+width: 1200px;
+padding: 15px;
+}
+p{
+font-family: verdana;
+font-size: 14pt;
+color:black;
+}
+a{
+font-family: tahoma;
+font-size: 14pt;
+}
+#piepagina{
+font-family: tahoma;
+font-size: 14pt;
+color:rgb(255, 255, 255);
+}

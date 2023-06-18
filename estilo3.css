@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Lobster&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Lobster&family=Righteous&family=Secular+One&family=Varela+Round&display=swap');
+.menu{
+    max-width: 250px;
+    width: 100%;
+    position:relative;
+    margin-left: 40%;
+}
+.item{
+    height: 46px;
+    padding: 0 20px;
+    position:relative;
+    z-index: 3;
+    text-align: center;
+    font-size: 18px;
+    line-height: 46px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #0a0a0a;
+    font-family: sans-serif;
+    display: block;
+}.back-menu{
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 46px;
+    width: 100%;
+    background: #9caf8e;
+    border-radius: 50px;
+    z-index: 2;
+    transition: 0.3s;
+}
+body {
+    font-family: 'Varela Round', sans;
+    margin: 0px;
+    background-color: #fcfbfb;
+}
+h1 {
+    font-family: 'Varela Round', sans-serif;
+    font-size:40px;
+    color:#7C96AB;
+    font-weight: 600;
+   letter-spacing: -2px; 
+   text-align: center;
+}
+h2 {
+    font-family: 'Varela Round', sans-serif;
+    font-size:32px;
+    color:#9caf8e;
+    font-weight: 600;
+   letter-spacing: -2px; 
+   text-align: center;
+}
+
+
+.cabecera img {
+    margin: 0px 0px;
+    width: 1348px;
+    height: 200px;
+
+}
+
+.cuerpo {
+    max-width: 1100;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenido {
+    float: left;
+    width: 64%;
+}
+
+div.contenido img {
+    width: 90%;
+}
+
+.barra-lateral {
+    padding-top: 20px;
+    float: right;
+    width: 30%;
+}
+
+.barra-lateral h3 {
+    color: 40% #444;
+    text-align: center;
+    border-bottom: 1px solid #444;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.pie {
+    clear: both;
+    color: white;
+    background-color: #144762;
+    min-height: 100px;
+    padding: 10px;
+    text-align: center;
+}
